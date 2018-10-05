@@ -1,0 +1,6 @@
+name = input("Your name: ")
+x = input("How many pizzas you want? ")
+y = input("How many pieces of pepperoni do you want?  ")
+z = input("How many olives do you want? ")
+print(name + " wants " + x + " pieces of the stupid pizzas, " + y + " pieces of pepperoni(s), and " + z + " gigantic olives.")
+print("ThankYouComeAgain")
