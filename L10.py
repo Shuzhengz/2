@@ -17,7 +17,7 @@ to loose claw, type lc
 To stop, type Stop''')
 x = 1
 while x == 1:
-	ins = input("Instructiuon: ")
+    ins = str(input("Instructiuon: "))
 	if ins == "move":
 		y = int(input("How mutch: "))
 		Rob.move(y)

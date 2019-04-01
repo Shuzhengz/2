@@ -13,7 +13,8 @@ class robot:
 		else:
 			self.cube = self.cube
 rob1 = robot(0,0,False,0)
-for i in range(0,10):
+x = 1
+while x == 1:
 	pos, level, pick = int(input("move:  ")), int(input("height:  ")), bool(input("pick:  "))
 	rob1.iterative_robot(pos, level, pick)
 	if rob1.pos == 7 and rob1.armp == 10 and rob1.cube == True :
