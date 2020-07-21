@@ -11,6 +11,6 @@ while bom == 1:
 		print("Wrong Password")
 	y = input("Enter your command: ")
 	if y == "pop":
-		y = input("Which password would you wnat to remove: ")
+		y = input("Which password would you like to remove: ")
 		passwords.pop(y)
 		print("removed")
